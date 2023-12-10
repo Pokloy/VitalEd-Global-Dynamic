@@ -30,17 +30,18 @@ export default function Home() {
 		})
 		.then(res => res.json())
 		.then(data => {
-			const datahead = data.map((result) => {
-				return (
-					<p className={`${Components2.landingfont} mt-5 text-center text-lg-left`}>{result.homeHead}</p>
-					);
-			})
-			setHeading(datahead);
-			
-			const dataSubHead = data.map((result) => {
-				return <p className={`${Components2.missionfontn} text-justify p-5`}>{result.missionSubHead}</p>
-			})
-			setSubHeading(dataSubHead);
+
+            const datahead = (
+					<p className={`${Components2.landingfont} mt-5 text-center text-lg-left`}>
+					{ <div dangerouslySetInnerHTML={{ __html: data.homeHead }} />}
+					</p>
+					) ;
+            setHeading(datahead);
+
+            const dataSubHead =  (
+                <p className={`${Components2.missionfontn} text-justify p-5`}>{<div dangerouslySetInnerHTML={{ __html: data.missionSubHead  }} />}</p>
+            	);
+            setSubHeading(dataSubHead);
 		})
 	}
 

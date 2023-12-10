@@ -26,7 +26,7 @@ export default function ForSchools(){
 			const subhead = data.map((result) => {
 				return(
 					<p className={`${PagesCss.missionfontn} p-5 text-justify`}>
-					{result.fsSubHead}
+					{ <div dangerouslySetInnerHTML={{ __html: result.fsSubHead}} />}
 					</p>
 					) ;
 			})

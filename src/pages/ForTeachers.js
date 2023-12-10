@@ -26,7 +26,7 @@ export default function ForTeachers() {
 			const subhead = data.map((result) => {
 				return(
 					<p className={`${PagesCss.missionfontn} p-5 text-justify`}>
-					{result.ftSubHead}
+					{ <div dangerouslySetInnerHTML={{ __html: result.ftSubHead }} />}
 					</p>
 					) ;
 			})
@@ -59,7 +59,7 @@ export default function ForTeachers() {
 
 		<section className={PagesCss.mission}>
 			<Container className="p-lg-5">
-					{(subHead !== '') ? subHead : defaultString}
+					{(subHead !== '') ?   subHead : defaultString}
 			</Container>
 		</section>
 

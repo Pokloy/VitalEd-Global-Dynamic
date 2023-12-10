@@ -22,22 +22,22 @@ export default function HomeAdmin() {
 		})
 		.then(res => res.json())
 		.then(data => {
-			const dataHead = data.map((result) => {
-				return result.homeHead;
-			})
-			const firstHead = dataHead[0];
+			const dataHead = (
+				data.homeHead
+			)
+			const firstHead = dataHead;
 			setHead(firstHead);
 
-			const dataSubhead = data.map((result) => {
-				return result.missionSubHead;
-			})
-			const firstSubHead = dataSubhead[0];
+			const dataSubhead = (
+				data.missionSubHead
+			)
+			const firstSubHead = dataSubhead;
 			setSubHead(firstSubHead);
 
-			const dataId = data.map((result) => {
-				return result._id;
-			})
-			const firstId = dataId[0];
+			const dataId = (
+				data._id
+			)
+			const firstId = dataId;
 			setId(firstId);
 		})
 	} 

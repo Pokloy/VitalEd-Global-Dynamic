@@ -33,7 +33,7 @@ export default function AboutUs() {
 			const subhead = data.map((result) => {
 				return(
 					<p className={`${PagesCss.Aboutus1font} text-justify`}>
-					{result.auSubHead}
+					{ <div dangerouslySetInnerHTML={{ __html: result.auSubHead }} />}
 					</p>
 					) 
 			})
