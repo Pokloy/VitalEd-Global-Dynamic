@@ -14,7 +14,7 @@ export default function ForTeachers() {
 
 
 	const showSubHeadings = () => {
-		fetch(`http://localhost:4000/forteachers/`,{
+		fetch(`${process.env.REACT_APP_API_URL}/forteachers/`,{
 			 method: 'GET',
 			 headers: {
 	        'Content-Type': 'application/json',

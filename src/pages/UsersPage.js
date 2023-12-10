@@ -10,7 +10,7 @@ export default function AllUserPage() {
   
   const allUser = () => {
     const token = localStorage.getItem('token')
-    fetch(`http://localhost:4000/users/`, {
+    fetch(`${process.env.REACT_APP_API_URL}/users/`, {
       headers: {
         'Content-Type': 'application/json',
         'Authorization': `Bearer ${token}`

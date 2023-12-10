@@ -21,7 +21,7 @@ export default function AboutUs() {
 
 
 	const showSubHeadings = () => {
-		fetch(`http://localhost:4000/aboutus/`,{
+		fetch(`${process.env.REACT_APP_API_URL}/aboutus/`,{
 			 method: 'GET',
 			 headers: {
 	        'Content-Type': 'application/json',
@@ -44,6 +44,7 @@ export default function AboutUs() {
 
 	useEffect(() => {
 		showSubHeadings();
+		console.log(process.env.REACT_APP_API_URL)
 	},[])
 
 

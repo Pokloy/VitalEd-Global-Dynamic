@@ -12,7 +12,7 @@ export default function ForTeachers() {
 	const showSubHeadings = () => {
 		const token = localStorage.getItem('token')
 		
-		fetch(`http://localhost:4000/forteachers/`,{
+		fetch(`${process.env.REACT_APP_API_URL}/forteachers/`,{
 			method: 'GET',
 			 headers: {
 	        'Content-Type': 'application/json',
@@ -49,7 +49,7 @@ export default function ForTeachers() {
 		e.preventDefault();
 		const token = localStorage.getItem('token')
 		
-		fetch(`http://localhost:4000/forteachers/${id}/update` ,{
+		fetch(`${process.env.REACT_APP_API_URL}/forteachers/${id}/update` ,{
 			method: 'PATCH',
 			headers: {
 	        'Content-Type': 'application/json',

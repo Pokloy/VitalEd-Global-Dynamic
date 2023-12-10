@@ -14,7 +14,7 @@ export default function ForSchools(){
 
 
 	const showSubHeadings = () => {
-		fetch(`http://localhost:4000/forschools/`,{
+		fetch(`${process.env.REACT_APP_API_URL}/forschools/`,{
 			 method: 'GET',
 			 headers: {
 	        'Content-Type': 'application/json',

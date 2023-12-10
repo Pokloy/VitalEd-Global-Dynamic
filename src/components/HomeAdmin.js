@@ -13,7 +13,7 @@ export default function HomeAdmin() {
 	const showSubHeadings = () => {
 		const token = localStorage.getItem('token')
 		
-		fetch(`http://localhost:4000/home/`,{
+		fetch(`${process.env.REACT_APP_API_URL}/home/`,{
 			method: 'GET',
 			 headers: {
 	        'Content-Type': 'application/json',
@@ -48,7 +48,7 @@ export default function HomeAdmin() {
 		e.preventDefault();
 		const token = localStorage.getItem('token')
 		
-		fetch(`http://localhost:4000/home/${id}/update` ,{
+		fetch(`${process.env.REACT_APP_API_URL}/home/${id}/update` ,{
 			method: 'PATCH',
 			headers: {
 	        'Content-Type': 'application/json',

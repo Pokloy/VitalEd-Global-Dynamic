@@ -19,7 +19,7 @@ export default function AboutUs() {
 	const showSubHeadings = () => {
 		const token = localStorage.getItem('token')
 		
-		fetch(`http://localhost:4000/aboutus/`,{
+		fetch(`${process.env.REACT_APP_API_URL}/aboutus/`,{
 			 method: 'GET',
 			 headers: {
 	        'Content-Type': 'application/json',
@@ -56,7 +56,7 @@ export default function AboutUs() {
 		const updateSubHeadings = (e, id, subHead) => {
 		e.preventDefault();
 		const token = localStorage.getItem('token')
-		fetch(`http://localhost:4000/aboutus/${id}/update` ,{
+		fetch(`${process.env.REACT_APP_API_URL}/aboutus/${id}/update` ,{
 			method: 'PATCH',
 			headers: {
 	        'Content-Type': 'application/json',

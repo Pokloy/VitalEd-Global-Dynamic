@@ -21,7 +21,7 @@ export default function Home() {
 
 	const showSubHeadings = () => {
 	const token = localStorage.getItem('token')
-		fetch(`http://localhost:4000/home/`,{
+		fetch(`${process.env.REACT_APP_API_URL}/home/`,{
 			 method: 'GET',
 			 headers: {
 	        'Content-Type': 'application/json',
@@ -30,7 +30,6 @@ export default function Home() {
 		})
 		.then(res => res.json())
 		.then(data => {
-
 			const datahead = data.map((result) => {
 				return (
 					<p className={`${Components2.landingfont} mt-5 text-center text-lg-left`}>{result.homeHead}</p>

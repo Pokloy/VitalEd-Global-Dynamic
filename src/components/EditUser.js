@@ -14,7 +14,7 @@ export default function EditUser({ userId, allUser }) {
     const editProduct = (e, userId) => {
     	e.preventDefault();
 
-    	fetch(`http://localhost:4000/users/${userId}/update`,{
+    	fetch(`${process.env.REACT_APP_API_URL}/users/${userId}/update`,{
     		method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json',
