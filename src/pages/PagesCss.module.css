@@ -1,0 +1,552 @@
+/* Homepage Section */
+a.nav-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+a.nav-link:hover {
+    text-decoration: none;
+    color: inherit; 
+    
+}
+
+.navbar-fonts{
+    color: #000;
+    text-align: center;
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.authHead{
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-style: bold;
+    font-weight: 1000;
+}
+
+.navbar-brand img {
+    max-width: 250px; 
+    width: 30%;
+    height: auto;
+}
+.landing{
+    min-height: 45vh;
+    background-image: url("./images/Homepage_edited.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.teachersbenefitsdisplay{
+    display: block;
+}
+
+.salary{
+    margin-top: 40px;
+}
+.visa{
+    margin-top: 38px;
+}
+.logistics{
+    margin-top: 41px;
+}
+.house{
+    margin-top: 85px;
+}
+.financial{
+    margin-top: 72px;
+}
+.orientation{
+    margin-top: 43px;
+}
+.ongoing{
+    margin-top: 20px;
+}
+.family{
+    margin-top: 37px;
+}
+
+.landingfont{
+    color: #F7F9F9;
+    font-family: 'Inter',sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 50px;
+    overflow-y: hidden;
+}
+
+.aboutusfont1{
+    color: #FFF;
+    font-family: 'Inter',sans-serif;
+    font-size: 4em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 83.333% */
+    overflow-y: hidden;
+}
+
+.landingaboutus{
+    min-height: 45vh;
+    background-image: url("./images/scienceTeacher_edited.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.Aboutus1{
+    min-height: 30vh;
+}
+
+.Aboutus1font{
+    color: #000;
+    font-family: 'Inter',sans-serif;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 166.667% */
+    text-align: justify;
+}
+
+.landingforschools{
+    min-height: 50vh;
+    background-image: url('./images/ForSchool_edited.png');
+}
+
+.schoolbenefits{
+    background-color: white;
+    min-height: 40vh;
+}
+
+.about2header1{
+    color: #000;
+    font-family: 'Inter',sans-serif;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 160% */
+}
+
+
+
+.aboutusfont1{
+    color: #FFF;
+    font-family: 'Inter',sans-serif;
+    font-size: 4em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 83.333% */
+    overflow-y: hidden;
+}
+
+.mission{
+    min-height: 50vh;
+    background-color: #000080;
+    display: flex;
+    align-items: center;
+}
+.missionfontn{
+    color: #F7F9F9;
+    font-family: 'Inter',sans-serif;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 200% */
+}
+.mission p{
+  margin: 0;
+  text-indent: 2rem;
+  text-align: justify;
+}
+
+.missionfont-b{
+    color: #F7F9F9;
+    font-family: 'Inter',sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.apply{
+    min-height: 50vh;
+}
+
+.servicesButton{
+    border-radius: 20px;
+    background: #000080;
+    color: #FFF;
+    text-align: center;
+    /* Text md/Semibold */
+    font-family: 'Inter',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom:10px;
+    padding-top:10px;
+}
+
+.servicesButton:hover{
+    background: #3a3af5;
+    border-radius: 20px;
+    color: #FFF;
+    text-align: center;
+    /* Text md/Semibold */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+}
+
+.serviceFont{
+    color: #000080;
+    font-family: 'Inter',sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 200% */
+}
+
+.serviceFont:hover{
+    text-decoration: underline;
+}
+
+.footer1 {
+    min-height: 10vh;
+    background-color: #E4E2DD;
+    overflow-x: hidden;
+}
+
+.Aboutus2{
+    min-height: 70vh;
+    background-color: #E4E2DD;
+}
+
+.about2header1{
+    color: #000;
+    font-family: 'Inter',sans-serif;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 160% */
+}
+
+.about2font1{
+    color: #000;
+    font-family: 'Inter',sans-serif;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 160% */
+}
+
+
+.facustom{
+    color: #000080;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+.Aboutus3{
+    min-height: 70vh;
+}
+
+.Exception{
+    margin-top: 10px;
+}
+.Service{
+    margin-top: 50px;
+}
+
+.Zero{
+    margin-top: 60px;
+}
+
+
+
+.teachersbenefits{
+    min-height: 100vh;
+    background-color: #E4E2DD;
+}
+
+.teachersbenefitsn{
+    color: black;
+    font-family: 'Inter',sans-serif;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 200% */
+}
+
+
+.landingforteachers{
+    min-height: 45vh;
+    background-image: url("./images/ForTeachers_edited.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.aboutusfont1{
+    color: #FFF;
+    font-family: 'Inter',sans-serif;
+    font-size: 4em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 83.333% */
+    overflow-y: hidden;
+}
+
+.mission{
+    min-height: 50vh;
+    background-color: #000080;
+    display: flex;
+    align-items: center;
+}
+
+.missionfontn{
+    color: #F7F9F9;
+    font-family: 'Inter',sans-serif;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 200% */
+}
+
+.hiring1{
+    min-height: 50vh;
+}
+
+.hiring2font{
+    color: #000;
+    font-family: 'Inter',sans-serif;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; 
+}
+
+
+.servicesButton{
+    border-radius: 20px;
+    background: #000080;
+    color: #FFF;
+    text-align: center;
+    /* Text md/Semibold */
+    font-family: 'Inter',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom:10px;
+    padding-top:10px;
+}
+
+.servicesButton:hover{
+    background: #3a3af5;
+    border-radius: 20px;
+    color: #FFF;
+    text-align: center;
+    /* Text md/Semibold */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+}
+
+
+.aligns
+{
+    text-align: left;
+}
+
+.qualification{
+    min-height: 80vh;
+    background-color: white;
+}
+
+.about2placeholder1{
+    border: 4px solid #000080;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.about2header1{
+    color: #000;
+    font-family: 'Inter',sans-serif;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 160% */
+}
+
+
+
+.btnLogin1{
+    background-color: black;
+    width: 28rem;
+    height: 62px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px; 
+    text-decoration: none;
+}
+
+
+.btnLogin1:hover{
+    background-color: white;
+    width: 28rem;
+    height: 62px;
+    color: black;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px; 
+    text-decoration: none;
+}
+
+.loginButtonDisabled{
+    background-color: white;
+    width: 28rem;
+    height: 62px;
+    color: black;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsive Section*/
+
+
+/*tablet view*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .teachersbenefitsdisplay{
+    display: none;
+    }
+    .aligns
+    {
+        text-align: center;
+    }
+}
+
+
+/*mobile view*/
+@media (max-width:767px){
+.aboutusfont1{
+
+font-size: 3em;
+
+}
+.landingfont{
+    background-size: contain;
+}
+.landingaboutus{
+min-height: 30vh;
+
+}
+
+.aligns{
+    text-align: center;
+}
+.teachersbenefitsdisplay{
+display: block !important;
+    
+}
+.btnLogin1{
+    width: 22rem;
+    height: 62px;
+    font-size: 18px;
+}
+
+
+.btnLogin1:hover{
+
+    width: 22rem;
+    height: 62px;
+    font-size: 18px;
+    text-align: center;
+}
+.loginButtonDisabled{
+
+    width: 22rem;
+    height: 62px;
+    font-size: 18px;
+}
+}
+    
+
+
+
+
+
+@media (max-width: 900px){
+.serviceFont{
+    font-size: 12px;
+}
+.footer1 {
+    min-height: 30vh; 
+    margin-top: 20px;
+}
+.landingforschools{
+min-height: 30vh;
+}
+.aligns
+{
+    text-align: center;
+}
+
+    .landing-for-teachers{
+    min-height: 30vh;
+}
+.about-us-font-1{
+    font-size: 3em;
+}
+.landingforteachers{
+    min-height: 30vh;
+}
+.teachersbenefitsdisplay{
+    display: none;
+}
+
+.landing{
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+}

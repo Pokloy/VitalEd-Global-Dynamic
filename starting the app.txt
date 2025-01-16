@@ -1,0 +1,4 @@
+starting the app. 
+
+
+"npm start"
